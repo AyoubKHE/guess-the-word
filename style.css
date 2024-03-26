@@ -1,0 +1,165 @@
+body {
+    background-color: #1B202B;
+}
+
+.container {
+    width: 100%;
+}
+
+.my-header {
+    background-color: #E9E9E9;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+.my-main {
+    background-color: #CECECE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-row {
+    margin-bottom: 20px;
+}
+
+.tries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.try-title {
+    width: 62px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.char {
+    border: none;
+    border-bottom: solid 2px #1B202B;
+    outline: none;
+    width: 10%;
+    height: 40px;
+    background-color: white;
+    color: #1B202B;
+    font-size: 21px;
+    display: inline-block;
+    text-align: center;
+}
+
+input:disabled {
+    background-color: #ede9ed;
+}
+
+.char-disabled {
+    background-color: #ede9ed;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-check-word {
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 55%;
+    background-color: #E1482C;
+    color: white;
+}
+
+.btn-hint {
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+    background-color: #006E72;
+    color: white;
+}
+
+.remark {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+}
+
+.answer {
+    color: #E1482C;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4 {
+    width: 100%;
+    text-align: center;
+}
+
+.hints {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px;
+    padding-left: 10px;
+    width: 95%;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+small {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.orange,
+.green,
+.gray {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.orange {
+
+    background-color: #FF9E10;
+}
+
+.green {
+    background-color: #09A78A;
+}
+
+.gray {
+    background-color: gray;
+}
+
+
+@media all and (min-width : 992px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media all and (min-width : 1200px) {
+    .container {
+        width: 60%;
+    }
+}
